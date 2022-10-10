@@ -37,34 +37,34 @@
 **In English**
 # E-commerce Database Project
 
-- Context: Requirements gathering
-- Conceptual Project: Entity Relationship Model
-- Logical Design: Relational Model
+	- Context: Requirements gathering
+	- Conceptual Project: Entity Relationship Model
+	- Logical Design: Relational Model
 
 # Modeling E-COMMERCE:
 ### Product:
-- Products are sold through a single online platform. However, these may have different sellers (third parties)
-- Each product has a supplier
-- One or more products can compose the order
+	- Products are sold through a single online platform. However, these may have different sellers (third parties)
+	- Each product has a supplier
+	- One or more products can compose the order
 
 ### Client:
-- Customers can register on the site with their CPF or CNPJ
-- The customer's address will determine the shipping cost
-- A customer can buy more than one order. This has a grace period for returning the product.
+	- Customers can register on the site with their CPF or CNPJ
+	- The customer's address will determine the shipping cost
+	- A customer can buy more than one order. This has a grace period for returning the product.
 
 ### Request:
-- Orders are created by customers and have purchase information, address and delivery status
-- One or more products make up the order
-- The order can be canceled
+	- Orders are created by customers and have purchase information, address and delivery status
+	- One or more products make up the order
+	- The order can be canceled
 
 
 ## Entities:
-- Customer, Order, Product and Supplier & stock
+	- Customer, Order, Product and Supplier & stock
 
 # Refinement:
-- PJ and PF client - An account can be PJ or PF, but cannot have both information
-- Payment - You may have registered more than one payment method
-- Delivery - has status and restriction code
+	- PJ and PF client - An account can be PJ or PF, but cannot have both information
+	- Payment - You may have registered more than one payment method
+	- Delivery - has status and restriction code
 
 ## Software used for modeling
 **MySQL Workbench**
